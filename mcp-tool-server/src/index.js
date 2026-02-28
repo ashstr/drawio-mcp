@@ -6,7 +6,7 @@ import { ListToolsRequestSchema, CallToolRequestSchema } from "@modelcontextprot
 import pako from "pako";
 import { exec } from "child_process";
 
-const DRAWIO_BASE_URL = "https://app.diagrams.net/";
+const DRAWIO_BASE_URL = process.env.DRAWIO_BASE_URL ?? "https://app.diagrams.net/";
 
 /**
  * Opens a URL in the default browser (cross-platform)
