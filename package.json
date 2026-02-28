@@ -1,0 +1,13 @@
+{
+  "name": "drawio-mcp-localbase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "drawio-mcp": "mcp-tool-server/src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "pako": "^2.1.0"
+  }
+}
